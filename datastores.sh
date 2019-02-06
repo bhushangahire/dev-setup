@@ -19,11 +19,12 @@ fi
 brew update
 
 # Install data stores
-brew install mysql
-brew install postgresql
-brew install mongo
+brew install mysql@5.7
+# https://gist.github.com/operatino/392614486ce4421063b9dece4dfe6c21
+# brew install postgresql
+# brew install mongo
 brew install redis
-brew install elasticsearch
+brew install elasticsearch@5.6
 
 # Install mysql workbench
 # Install Cask
